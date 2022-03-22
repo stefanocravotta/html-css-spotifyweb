@@ -1,5 +1,17 @@
 
 
+/* TABLET VIEW */
+
+@media screen and (max-width:926px){
+  
+  .container-card .card{
+    width: calc(100%/4 - 15px);
+  }
+}
+
+/* BIG-SCREEN MOBILE VIEW */
+
+
 /* MOBILE VIEW */
 @media screen and (max-width:428px){
 

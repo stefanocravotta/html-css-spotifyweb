@@ -8,7 +8,7 @@ main{
 /* ASIDE */
 
 .main-left{
-  width: 300px;
+  width: 200px;
   height: 100%;
 }
 
@@ -17,7 +17,7 @@ main{
 /* MAIN CENTRAL */
 
 .main-central{
-  width: calc(100% - 300px);
+  width: calc(100% - 200px);
   height: 100%;
   overflow-y: auto;
   padding-top: 100px;
@@ -44,27 +44,34 @@ main{
 
 /*  /NAV */
 
-/* ALBUM */
+/* CARD */
 
 .main-central section.container{
   padding: 15px 10px;
 }
 
-.main-central section .container-album{
+.main-central section .container-card{
   padding-top: 15px;
 }
 
-.container-album .album{
-  width: 10vw;
+.container-card .card{
+  width: calc(100%/6 - 15px);
   text-align: center;
+  margin-right: 15px;
+  margin-top: 15px;
 }
 
-.container-album .album img{
+.container-card .card img{
   width: 100%;
 }
 
+#popolari .container-card .card img{
+  border-radius: 50%;
+}
 
-/* /ALBUM */
+/* /CARD */
+
+
 
 /* /MAIN CENTRAL */
 

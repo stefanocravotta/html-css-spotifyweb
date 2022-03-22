@@ -16,3 +16,7 @@ ul{
 ul li a{
   text-decoration: none;
 }
+
+p{
+  padding: 15px 0;
+}
