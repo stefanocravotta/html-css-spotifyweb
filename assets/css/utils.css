@@ -5,10 +5,35 @@
   display: flex;
 }
 
+/* FLOAT PROPERTY */
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-left{
+  float: left;
+}
+
+/* POSITION PROPERTY */
+
+.p-relative{
+  position: relative;
+}
+
+.p-fixed{
+  position: fixed;
+}
+
+.p-absolute{
+  position: absolute;
+}
 
 /* DEBUG */
 
 .debug{
   background-color: rgba(255, 0, 0, .5);
+  border: 1px solid black;
 }
