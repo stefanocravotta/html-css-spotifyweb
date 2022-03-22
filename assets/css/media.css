@@ -1,0 +1,13 @@
+
+
+/* MOBILE VIEW */
+@media screen and (max-width:428px){
+
+  .main-left{
+    width: 50px;
+  }
+
+  .main-central{
+    width: calc(100% - 50px);
+  }
+}
