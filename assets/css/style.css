@@ -5,19 +5,16 @@ main{
   height: calc(100vh - 100px);
 }
 
-.main-top{
-  height: 100px;
-  width: 100%;
-  top: 0;
-  /* left: 300px; */
-  z-index: 999;
-}
-
+/* ASIDE */
 
 .main-left{
   width: 300px;
   height: 100%;
 }
+
+/* /ASIDE */
+
+/* MAIN CENTRAL */
 
 .main-central{
   width: calc(100% - 300px);
@@ -25,6 +22,52 @@ main{
   overflow-y: auto;
   padding-top: 100px;
 }
+
+/*  NAV */
+
+.main-central .main-top{
+  height: 100px;
+  width: 100%;
+  top: 0;
+  /* left: 300px; */
+  z-index: 999;
+}
+
+.main-central .main-nav{
+  text-align: center;
+  padding-top: 15px;
+}
+
+.main-central .main-nav ul li{
+  display: inline-block;
+}
+
+/*  /NAV */
+
+/* ALBUM */
+
+.main-central section.container{
+  padding: 15px 10px;
+}
+
+.main-central section .container-album{
+  padding-top: 15px;
+}
+
+.container-album .album{
+  width: 10vw;
+  text-align: center;
+}
+
+.container-album .album img{
+  width: 100%;
+}
+
+
+/* /ALBUM */
+
+/* /MAIN CENTRAL */
+
 
 /* /MAIN */
 

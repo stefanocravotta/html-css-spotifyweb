@@ -5,6 +5,18 @@
   display: flex;
 }
 
+.space-around{
+  justify-content: space-around;
+}
+
+.space-evenly{
+  justify-content: space-evenly;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
 /* FLOAT PROPERTY */
 
 .clearfix::after{
@@ -30,6 +42,13 @@
 .p-absolute{
   position: absolute;
 }
+
+/* INLINE PROPERTY */
+
+.inline-block{
+  display: inline-block;
+}
+
 
 /* DEBUG */
 
