@@ -10,6 +10,7 @@ main{
 .aside-left{
   width: 200px;
   height: 100%;
+  padding: 15px 15px 0 15px;
 }
 
 .aside-main{
@@ -19,6 +20,65 @@ main{
 .aside-left .aside-bottom{
   height: 80px;
 }
+
+/* TOP */
+
+
+.aside-main .logo img{
+  height: 40px;
+}
+
+.aside-main nav{
+  padding: 10px 0;
+  font-size: .9rem;
+
+}
+
+.aside-main nav ul li{
+  padding: 5px 0;
+}
+
+.aside-main nav ul li a i{
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.aside-main nav ul li a i.fa-lines-leaning{
+  transform: rotateY(180deg);
+  margin-right: 15px;
+}
+
+/* PLAYLIST */
+
+.aside-main .playlist .crea{
+  color: rgb(153, 153, 153);
+}
+
+.aside-main .playlist .crea .square{
+  font-size: 1.5rem;
+  background-color: rgb(153, 153, 153);
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.aside-main .playlist ul li{
+  padding: 10px 0;
+  font-size: .9rem;
+}
+
+/* BOTTOM */
+
+.aside-bottom p{
+  padding: 10px 0;
+  font-size: .7rem;
+
+}
+
+.aside-bottom .cross{
+  border: 1px solid rgb(153, 153, 153);
+  margin-bottom: 5px;
+}
+
 
 /* /ASIDE */
 
