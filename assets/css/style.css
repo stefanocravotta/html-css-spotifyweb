@@ -88,6 +88,15 @@ main{
 
 footer{
   height: 100px;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.footer-central{
+  width: 50%;
+}
+
+
+
 
 /* /FOOTER */
