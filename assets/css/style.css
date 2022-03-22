@@ -7,9 +7,17 @@ main{
 
 /* ASIDE */
 
-.main-left{
+.aside-left{
   width: 200px;
   height: 100%;
+}
+
+.aside-main{
+  height: calc(100% - 80px);
+}
+
+.aside-left .aside-bottom{
+  height: 80px;
 }
 
 /* /ASIDE */
@@ -71,10 +79,7 @@ main{
 
 /* /CARD */
 
-
-
 /* /MAIN CENTRAL */
-
 
 /* /MAIN */
 
