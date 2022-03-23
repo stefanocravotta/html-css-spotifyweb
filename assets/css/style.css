@@ -164,26 +164,66 @@ main{
   padding: 15px 10px;
 }
 
-.main-central section .container-card{
-  padding-top: 15px;
-}
-
 .container-card .card{
   width: calc(100% / 6 - 15px);
   text-align: center;
   margin-right: 15px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .container-card .card img{
   width: 100%;
-  margin-bottom: 10px;
 }
+
+.img-container{
+  position: relative;
+}
+
 
 #popolari .container-card .card img{
   border-radius: 50%;
 }
 
+.overlay{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 98.3%;
+  /* CON IL 100% ESCE UN PO' FUORI IL BOTTOM */
+  background-color: rgba(0, 0, 0, .5);
+  display: none;
+}
+
+
+.play-hover{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+
+.overlay-circle{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 98.3%;
+  /* CON IL 100% ESCE UN PO' FUORI IL BOTTOM */
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  display: none;
+}
+
+.card:hover .overlay{
+  display: inline-block;
+}
+
+.card:hover .overlay-circle{
+  display: inline-block;
+}
 /* /CARD */
 
 /* /MAIN CENTRAL */
@@ -198,7 +238,6 @@ footer{
   justify-content: space-between;
   align-items: center;
   background-color: rgb(36, 36, 36);
-  /* flex-shrink: 3; */
 }
 
 /* FOOTER LEFT */
@@ -270,9 +309,10 @@ footer{
 /* FOOTER RIGHT */
 
 .footer-right{
+  justify-content: flex-end;
   align-items: center;
-  width: 20%;
-  margin-right: 5px;
+  width: 15%;
+  margin-right: 15px;
 }
 
 .footer-right i{
