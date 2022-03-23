@@ -29,6 +29,10 @@
     width: calc(100% - 50px);
   }
 
+  #call-to-action{
+    width: calc(100% - 50px);
+  }
+
   .container-card .card{
     width: calc(100% / 2 - 15px);
   }

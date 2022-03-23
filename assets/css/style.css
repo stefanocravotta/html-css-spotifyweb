@@ -93,9 +93,9 @@ main{
 
 .main-central .main-top{
   height: 100px;
-  width: 100%;
+  width: calc(100% - 200px);
   top: 0;
-  /* left: 300px; */
+  right: 0;
   z-index: 999;
 }
 
@@ -103,12 +103,16 @@ main{
 
 .main-central .main-nav{
   text-align: center;
-  padding-top: 15px;
 }
 
 .main-central .main-nav ul li{
   display: inline-block;
   text-transform: uppercase;
+  padding: 15px 5px;
+}
+
+.main-central .main-nav ul li a{
+  font-size: .8rem;
 }
 
 /*  /NAV */
@@ -157,7 +161,27 @@ footer{
   width: 50%;
 }
 
+.footer-left{
+  align-items: center;
+}
 
+.footer-left img{
+  width: 50px;
+  margin-left: 15px;
+}
+
+.footer-left .artist{
+  padding: 10px 15px 0 15px;
+}
+
+.footer-left .artist p{
+  padding: 0;
+}
+
+.footer-left i{
+  padding: 0 10px;
+  color: rgb(153, 153, 153);
+}
 
 
 /* /FOOTER */

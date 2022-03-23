@@ -21,6 +21,11 @@ ul li a{
 
 /* FARE HOVER UL LI A */
 
+ul li a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
 p{
   padding: 15px 0;
   color: rgb(153, 153, 153);
