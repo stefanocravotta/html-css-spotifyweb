@@ -157,10 +157,6 @@ footer{
   align-items: center;
 }
 
-.footer-central{
-  width: 50%;
-}
-
 .footer-left{
   align-items: center;
 }
@@ -183,5 +179,41 @@ footer{
   color: rgb(153, 153, 153);
 }
 
+.footer-central{
+  width: 50%;
+  height: 100%;
+}
 
+.footer-central .player{
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-central .player i{
+  padding: 15px;
+  font-size: 1.3rem;
+}
+
+.footer-central .player i.fa-circle-play{
+  font-size: 2rem;
+}
+
+.footer-central .time{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-central .timeline{
+  width: 80%;
+  height: 5px;
+  background-color: rgb(153, 153, 153);
+  border-radius: 5px;
+}
+
+.footer-central .current-timeline{
+  width: 20%;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
 /* /FOOTER */
