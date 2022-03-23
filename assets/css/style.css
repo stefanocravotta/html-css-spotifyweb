@@ -157,6 +157,8 @@ footer{
   align-items: center;
 }
 
+/* FOOTER LEFT */
+
 .footer-left{
   align-items: center;
 }
@@ -178,6 +180,8 @@ footer{
   padding: 0 10px;
   color: rgb(153, 153, 153);
 }
+
+/* FOOTER CENTRAL */
 
 .footer-central{
   width: 50%;
@@ -216,4 +220,31 @@ footer{
   background-color: white;
   border-radius: 5px;
 }
+
+/* FOOTER RIGHT */
+
+.footer-right{
+  align-items: center;
+
+}
+
+.footer-right i{
+  padding: 0 10px;
+}
+
+.footer-right .timeline{
+  width: 120px;
+  height: 5px;
+  background-color: rgb(153, 153, 153);
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.footer-right .current-timeline{
+  width: 20%;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
 /* /FOOTER */
