@@ -16,9 +16,9 @@
 </head>
 <body>
   
-  <main class="debug clearfix">
+  <main class="clearfix">
 
-    <aside class="aside-left debug float-left">
+    <aside class="aside-left  float-left">
       
       <div class="aside-main">
         <div class="logo">
@@ -28,19 +28,26 @@
         </div>
         <nav>
           <ul>
-            <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
-            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i>Cerca</a></li>
-            <li><a href="#"><i class="fa-solid fa-lines-leaning"></i>La tua libreria</a></li>
+            <li>
+              <a href="#"><img src="assets/img/home.svg"> Home</a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/img/search.svg"> Cerca</a>
+            </li>
+            <li>
+              <a href="#"><img src="assets/img/libreria.svg"> La tua libreria</a>
+            </li>
           </ul>
         </nav>
         <div class="playlist">
           <h5>PLAYLIST</h5>
-          <div class="crea">
-            <div class="square inline-block">
-              <i class="black fa-solid fa-plus"></i>
-            </div> Crea Playlist
-          </div>
-          <ul>  <!-- OVERFLOW -->
+          <ul class="">  <!-- OVERFLOW -->
+            <li><a href="#">
+              <i class="square inline-block black fa-solid fa-plus">
+              </i>
+              Crea Playlist
+              </a>
+            </li>
             <li><a href="#">Nome Playlist</a></li>
             <li><a href="#">Nome Playlist</a></li>
             <li><a href="#">Nome Playlist</a></li>
@@ -52,25 +59,27 @@
         </div>
       </div>
 
-      <div class="aside-bottom debug">
+      <div class="aside-bottom ">
 
         <p>
           <i class="fa-regular fa-circle-down"></i> Installa App
         </p>
         <div class="cross"></div>
         <div class="user">
-          <i class="fa-solid fa-circle-user"></i>
+          <img src="assets/img/profile.svg" alt="">
           <h5 class="inline-block">John Doe</h5>
         </div>
       </div>
 
     </aside>
 
-    <div class="main-central debug float-left p-relative">
+    <div class="main-central  float-left p-relative">
 
-      <div id="call-to-action" class="main-top debug p-fixed"></div>
+      <div id="call-to-action" class="main-top">
+        <button>EFFETTUA L'UPGRADE</button>
+      </div>
 
-      <nav class="main-nav debug">
+      <nav class="main-nav ">
         <ul>
           <li><a href="#">in evidenza</a></li>
           <li><a href="#">podcast</a></li>
@@ -82,13 +91,13 @@
       </nav>
 
       <!-- RECENTI -->
-      <section id="recenti" class="container debug">
+      <section id="recenti" class="container ">
 
         <h2>Recently played</h2>
 
-        <div class="container-card debug d-flex">
+        <div class="container-card d-flex">
 
-          <div class="card debug">
+          <div class="card ">
 
             <img src="assets/img/metal_lifting.jpg" alt="">
 
@@ -97,7 +106,7 @@
             <p>Subtitle</p>
 
           </div>
-          <div class="card debug">
+          <div class="card ">
 
             <img src="assets/img/stranger.jpeg" alt="">
 
@@ -106,7 +115,7 @@
             <p>Kyle & Michael Stein</p>
 
           </div>
-          <div class="card debug">
+          <div class="card ">
 
             <img src="assets/img/aquietplace.jpeg" alt="">
 
@@ -115,7 +124,7 @@
             <p>Subtitle</p>
 
           </div>
-          <div class="card debug">
+          <div class="card ">
 
             <img src="assets/img/split.jpeg" alt="">
 
@@ -124,7 +133,7 @@
             <p>Subtitle</p>
 
           </div>
-          <div class="card debug">
+          <div class="card ">
 
             <img src="assets/img/cure.jpeg" alt="">
 
@@ -133,7 +142,7 @@
             <p>Subtitle</p>
 
           </div>
-          <div class="card debug">
+          <div class="card ">
 
             <img src="assets/img/sinister.jpeg" alt="">
 
@@ -149,22 +158,22 @@
       <!-- /RECENTI -->
 
       <!-- SUGGERIMENTI -->
-      <section id="suggerimenti" class="container debug">
+      <section id="suggerimenti" class="container ">
 
         <h2>Recently played</h2>
 
         <p>Pi&uacute; ascolti, pi&uacute; accurati saranno i suggerimenti.</p>
 
-        <div class="container-card debug clearfix">
+        <div class="container-card  clearfix">
 
-          <div class="card debug float-left">
+          <div class="card  float-left">
 
             <img src="assets/img/radar.jpeg" alt="">
 
             <h5>Release Radar</h5>
 
           </div>
-          <div class="card debug float-left">
+          <div class="card  float-left">
 
             <img src="assets/img/mixdaily.jpeg" alt="">
 
@@ -178,22 +187,22 @@
       <!-- /SUGGERIMENTI -->
 
       <!-- POPOLARI -->
-      <section id="popolari" class="container debug">
+      <section id="popolari" class="container ">
 
         <h2>Recently played</h2>
 
         <p>Pi&uacute; ascolti, pi&uacute; accurati saranno i suggerimenti.</p>
 
-        <div class="container-card debug clearfix">
+        <div class="container-card  clearfix">
 
-          <div class="card debug float-left">
+          <div class="card  float-left">
 
             <img src="assets/img/youg.jpeg" alt="">
 
             <h5>Lana Del Rey</h5>
 
           </div>
-          <div class="card debug float-left">
+          <div class="card  float-left">
 
             <img src="assets/img/einaudi.jpeg" alt="">
 
@@ -208,9 +217,9 @@
     </div>
   </main>
 
-  <footer class="d-flex debug">
+  <footer class="d-flex ">
 
-    <div class="footer-left d-flex debug">
+    <div class="footer-left d-flex ">
       
       <img src="assets/img/sinister.jpeg" alt="sinister">
       <div class="artist">
@@ -223,7 +232,7 @@
 
     </div>
 
-    <div class="footer-central debug">
+    <div class="footer-central ">
 
       <div class="player d-flex">
         <i class="fa-solid fa-shuffle"></i>
@@ -243,7 +252,7 @@
 
     </div>
 
-    <div class="footer-right d-flex debug">
+    <div class="footer-right d-flex ">
       <i class="fa-solid fa-list"></i>
       <i class="fa-solid fa-desktop"></i>
       <i class="fa-solid fa-volume-high"></i>

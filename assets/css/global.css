@@ -22,7 +22,6 @@ ul li a{
 /* FARE HOVER UL LI A */
 
 ul li a:hover{
-  text-decoration: underline;
   color: white;
 }
 
