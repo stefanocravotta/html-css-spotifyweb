@@ -17,23 +17,85 @@
 
 /* BIG-SCREEN MOBILE VIEW */
 
+@media screen and (max-width:546px) {
+  
+  .container-card .card{
+    width: calc(100% / 2 - 15px);
+  }
+
+  .footer-left .artist,
+  .fa-heart,
+  .fa-folder{
+    display: none;
+  }
+}
 
 /* MOBILE VIEW */
 @media screen and (max-width:428px){
+  
+ .main-central{
+    width: calc(100% - 50px);
+  }
+  
+ #call-to-action{
+    width: calc(100% - 50px);
+  }
+  
+ .container-card .card{
+    width: calc(100% / 2 - 15px);
+  }
 
   .aside-left{
     width: 50px;
+    padding: 10px;
+
   }
 
-  .main-central{
-    width: calc(100% - 50px);
+  #logo-small,
+  #home-small,
+  #search-small,
+  #library-small{
+    display: inline-block;
+  }
+  
+  #name,
+  #install,
+  #logo,
+  #home,
+  #search,
+  #library{
+    display: none;
+  }
+
+  .cross{
+    display: none;
+  }
+
+  .fa-circle-down{
+    padding-left: 5px;
+    padding-bottom: 10px;
+  }
+  
+  .aside-main .logo img{
+    height: 25px;
+  }
+
+  .playlist{
+    display: none;
   }
 
   #call-to-action{
-    width: calc(100% - 50px);
+    text-align: center;
   }
 
-  .container-card .card{
-    width: calc(100% / 2 - 15px);
+  .footer-left .artist,
+  .fa-heart,
+  .fa-folder{
+    display: none;
+  }
+
+  .footer-right .fa-list,
+  .fa-desktop{
+    display: none;
   }
 }

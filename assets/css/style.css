@@ -45,6 +45,20 @@ main{
   padding: 5px 0;
 }
 
+.aside-main nav ul li:first-of-type a{
+  color: white;
+}
+
+/* DISPLAY-NONE NAV */
+
+#logo-small,
+#home-small,
+#search-small,
+#library-small{
+  display: none;
+}
+
+
 /* PLAYLIST */
 
 .aside-main .playlist li .square{
@@ -67,10 +81,9 @@ main{
 /* BOTTOM */
 
 
-.aside-bottom p{
-  padding: 10px 0;
+.aside-bottom span{
+  padding: 10px 5px;
   font-size: .7rem;
-
 }
 
 .aside-bottom .cross{
@@ -140,7 +153,7 @@ main{
 }
 
 .main-central .main-nav ul li a{
-  font-size: .8rem;
+  font-size: .7rem;
 }
 
 /*  /NAV */
@@ -185,12 +198,14 @@ footer{
   justify-content: space-between;
   align-items: center;
   background-color: rgb(36, 36, 36);
+  /* flex-shrink: 3; */
 }
 
 /* FOOTER LEFT */
 
 .footer-left{
   align-items: center;
+  width: 15%;
 }
 
 .footer-left img{
@@ -214,7 +229,7 @@ footer{
 /* FOOTER CENTRAL */
 
 .footer-central{
-  width: 50%;
+  width: calc(100% - 70%);
   height: 100%;
 }
 
@@ -242,6 +257,7 @@ footer{
   height: 5px;
   background-color: rgb(153, 153, 153);
   border-radius: 5px;
+  margin: 0 10px;
 }
 
 .footer-central .current-timeline{
@@ -255,7 +271,8 @@ footer{
 
 .footer-right{
   align-items: center;
-
+  width: 20%;
+  margin-right: 5px;
 }
 
 .footer-right i{
@@ -267,7 +284,6 @@ footer{
   height: 5px;
   background-color: rgb(153, 153, 153);
   border-radius: 5px;
-  margin: 0 10px;
 }
 
 .footer-right .current-timeline{

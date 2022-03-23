@@ -23,19 +23,23 @@
       <div class="aside-main">
         <div class="logo">
           <a href="#">
-            <img src="assets/img/logo.svg" alt="Spotify">
+            <img id="logo" src="assets/img/logo.svg" alt="Spotify">
+            <img id="logo-small" src="assets/img/logo-small.svg" alt="Spotify">
           </a>
         </div>
         <nav>
           <ul>
             <li>
-              <a href="#"><img src="assets/img/home.svg"> Home</a>
+              <a id="home" href="#"><img src="assets/img/home.svg"> Home</a>
+              <a id="home-small" href="#"> <img src="assets/img/home.svg" alt="home"></a>
             </li>
             <li>
-              <a href="#"><img src="assets/img/search.svg"> Cerca</a>
+              <a id="search" href="#"><img src="assets/img/search.svg"> Cerca</a>
+              <a id="search-small" href="#"><img src="assets/img/search.svg"></a>
             </li>
             <li>
-              <a href="#"><img src="assets/img/libreria.svg"> La tua libreria</a>
+              <a id="library" href="#"><img src="assets/img/libreria.svg"> La tua libreria</a>
+              <a id="library-small" href="#"><img src="assets/img/libreria.svg"></a>
             </li>
           </ul>
         </nav>
@@ -61,13 +65,12 @@
 
       <div class="aside-bottom ">
 
-        <p>
-          <i class="fa-regular fa-circle-down"></i> Installa App
-        </p>
+        <i class="lightgrey fa-regular fa-circle-down"></i> 
+        <span id="install" class="lightgrey">Installa App</span>
         <div class="cross"></div>
         <div class="user">
           <img src="assets/img/profile.svg" alt="">
-          <h5 class="inline-block">John Doe</h5>
+          <h5 id="name" class="inline-block">John Doe</h5>
         </div>
       </div>
 
@@ -232,7 +235,7 @@
 
     </div>
 
-    <div class="footer-central ">
+    <div class="footer-central">
 
       <div class="player d-flex">
         <i class="fa-solid fa-shuffle"></i>
