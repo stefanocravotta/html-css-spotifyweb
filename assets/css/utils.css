@@ -47,6 +47,11 @@
   color: rgb(153, 153, 153);
 }
 
+/* GENERAL */
+
+.cursor-pointer{
+  cursor: pointer;
+}
 
 /* DEBUG */
 
