@@ -216,6 +216,7 @@ main{
 
 .img-container{
   position: relative;
+  overflow: hidden;
 }
 
 #popolari .container-card .card img{
@@ -226,10 +227,12 @@ main{
   position: absolute;
   top: 0;
   right: 0;
-  width: 100%;
-  height: 98.3%;
+  left: 150%;
+  bottom: 0;
   background-color: rgba(0, 0, 0, .5);
-  display: none;
+  transition: .5s ease-out;
+
+  /* display: none; */
 }
 
 .play-hover{
@@ -252,7 +255,7 @@ main{
 }
 
 .card:hover .overlay{
-  display: inline-block;
+  left: 0;
 }
 
 .card:hover .overlay-circle{
@@ -365,6 +368,11 @@ footer{
 
 .timeline:hover .current-timeline{
   background-color: greenyellow;
+}
+
+.player i:hover{
+  color: greenyellow;
+  cursor: pointer;
 }
 
 /* FOOTER RIGHT */
