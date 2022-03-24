@@ -20,8 +20,6 @@ ul li a{
   color: rgb(153, 153, 153);
 }
 
-/* FARE HOVER UL LI A */
-
 ul li a:hover{
   color: white;
 }
