@@ -18,6 +18,7 @@ ul{
 ul li a{
   text-decoration: none;
   color: rgb(153, 153, 153);
+  transition: .5s ease-out;
 }
 
 ul li a:hover{
@@ -27,7 +28,7 @@ ul li a:hover{
 p{
   padding: 15px 0;
   color: rgb(153, 153, 153);
-  font-size: .7rem;
+  font-size: .8rem;
 }
 
 h5{

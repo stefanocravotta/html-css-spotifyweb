@@ -62,7 +62,6 @@ main{
   display: none;
 }
 
-
 /* PLAYLIST */
 
 .aside-main .playlist{
@@ -192,7 +191,7 @@ main{
 }
 
 .main-central .main-nav ul li a{
-  font-size: .7rem;
+  font-size: .8rem;
 }
 
 /*  /NAV */
@@ -228,20 +227,21 @@ main{
   position: absolute;
   top: 0;
   right: 0;
-  left: 150%;
+  left: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .0);
   transition: .5s ease-out;
-
-  /* display: none; */
 }
 
 .play-hover{
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 110%;
+  left: 80%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
+  transition: .5s ease-in-out;
+  color: rgba(49, 220, 106, .0);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
 }
 
 .overlay-circle{
@@ -250,19 +250,41 @@ main{
   right: 0;
   width: 100%;
   height: 98.3%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .0);
   border-radius: 50%;
-  display: none;
+  transition: .5s ease-out;
+}
+
+.play-hover-central{
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  transition: .5s ease-in-out;
+  color: rgba(49, 220, 106, .0);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .8);
 }
 
 .card:hover .overlay{
-  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.card:hover .play-hover{
+  top: 80%;
+  left: 80%;
+  color: rgba(49, 220, 106, 1)
 }
 
 .card:hover .overlay-circle{
-  display: inline-block;
+  background-color: rgba(0, 0, 0, .5);
+  
 }
 
+.card:hover .play-hover-central{
+  top: 50%;
+  color: rgba(49, 220, 106, 1)
+  }
 /* /CARD */
 
 /* /MAIN CENTRAL */
