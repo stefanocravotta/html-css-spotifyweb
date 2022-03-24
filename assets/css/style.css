@@ -103,6 +103,10 @@ main{
   font-size: .7rem;
 }
 
+.fa-circle-down:hover{
+  color: white;
+}
+
 .aside-bottom .cross{
   border-bottom: 1px solid rgb(153, 153, 153);
   margin-bottom: 5px;
@@ -119,7 +123,6 @@ main{
   vertical-align: middle;
   margin-left: 5px;
 }
-
 
 /* /ASIDE */
 
@@ -191,7 +194,6 @@ main{
   font-size: .7rem;
 }
 
-
 /*  /NAV */
 
 /* CARD */
@@ -216,7 +218,6 @@ main{
   position: relative;
 }
 
-
 #popolari .container-card .card img{
   border-radius: 50%;
 }
@@ -227,11 +228,9 @@ main{
   right: 0;
   width: 100%;
   height: 98.3%;
-  /* CON IL 100% ESCE UN PO' FUORI IL BOTTOM */
   background-color: rgba(0, 0, 0, .5);
   display: none;
 }
-
 
 .play-hover{
   position: absolute;
@@ -247,7 +246,6 @@ main{
   right: 0;
   width: 100%;
   height: 98.3%;
-  /* CON IL 100% ESCE UN PO' FUORI IL BOTTOM */
   background-color: rgba(0, 0, 0, .5);
   border-radius: 50%;
   display: none;
@@ -260,12 +258,12 @@ main{
 .card:hover .overlay-circle{
   display: inline-block;
 }
+
 /* /CARD */
 
 /* /MAIN CENTRAL */
 
 /* /MAIN */
-
 
 /* FOOTER */
 
@@ -299,6 +297,10 @@ footer{
 .footer-left i{
   padding: 0 10px;
   color: rgb(153, 153, 153);
+}
+
+.footer-left i:hover{
+  color: white;
 }
 
 /* FOOTER CENTRAL */
@@ -386,7 +388,7 @@ footer{
 }
 
 .footer-right .current-timeline{
-  width: 20%;
+  width: 80%;
   height: 5px;
   justify-content: flex-end;
   align-items: center;

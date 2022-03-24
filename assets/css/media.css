@@ -39,6 +39,8 @@
   
  #call-to-action{
     width: calc(100% - 50px);
+    text-align: center;
+
   }
   
  .container-card .card{
@@ -47,8 +49,6 @@
 
   .aside-left{
     width: 50px;
-    padding: 10px;
-
   }
 
   #logo-small,
@@ -56,6 +56,10 @@
   #search-small,
   #library-small{
     display: inline-block;
+  }
+  
+  .aside-main .logo img{
+    height: 25px;
   }
   
   #name,
@@ -66,28 +70,20 @@
   #library{
     display: none;
   }
+  
+  .playlist{
+    display: none;
+  }
 
   .cross{
     display: none;
   }
-
+  
   .fa-circle-down{
     padding-left: 5px;
     padding-bottom: 10px;
   }
   
-  .aside-main .logo img{
-    height: 25px;
-  }
-
-  .playlist{
-    display: none;
-  }
-
-  #call-to-action{
-    text-align: center;
-  }
-
   .footer-left .artist,
   .fa-heart,
   .fa-folder{
