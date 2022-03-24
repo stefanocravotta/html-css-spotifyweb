@@ -158,6 +158,7 @@ main{
   border-radius: 50px;
   margin-right: 15px;
   cursor: pointer;
+  transition: .5s ease-out;
 }
 
 #call-to-action button:hover{
@@ -300,6 +301,7 @@ footer{
 .footer-left i{
   padding: 0 10px;
   color: rgb(153, 153, 153);
+  transition: .5s ease-out;
 }
 
 .footer-left i:hover{
@@ -321,6 +323,7 @@ footer{
 .footer-central .player i{
   padding: 15px;
   font-size: 1.3rem;
+  transition: .5s ease-out;
 }
 
 .footer-central .player i.fa-circle-play{
@@ -347,6 +350,7 @@ footer{
   align-items: center;
   background-color: white;
   border-radius: 5px;
+  transition: .5s ease-out;
 }
 
 .current-time,
@@ -369,6 +373,7 @@ footer{
 .timeline:hover .current-timeline{
   background-color: greenyellow;
 }
+
 
 .player i:hover{
   color: greenyellow;
@@ -402,6 +407,8 @@ footer{
   align-items: center;
   background-color: white;
   border-radius: 5px;
+  transition: .5s ease-out;
+
 }
 
 /* /FOOTER */
